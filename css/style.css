@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 75%;
+    width: 80%;
     min-height: 100%;
     margin: auto;
 
@@ -27,9 +27,48 @@ body {
 }
 
 .content {
-    min-width: 240px;
-    width: 20%;
+    width: 25%;
     text-align: justify;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .content {
+        width: 30%;
+    }
+}
+
+@media (max-width: 810px) {
+    .container {
+        width: 93%;
+    }
+
+    .content {
+        width: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 85%;
+    }
+
+    .content {
+        width: 55%;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        align-items: center;
+    }
+
+    .content {
+        width: 100%;
+    }
 }
 
 h1 {
@@ -51,3 +90,4 @@ hr {
 a {
     color: black;
 }
+
